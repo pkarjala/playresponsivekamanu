@@ -28,6 +28,15 @@ public class IntegrationTest {
 
         browser.goTo("http://localhost:3333/pueo");
         assertThat(browser.pageSource()).contains("The Pueo is the most versatile");
+
+        browser.goTo("http://localhost:3333/aukahi");
+        assertThat(browser.pageSource()).contains("The Aukahi: Tahitian V1 design");
+
+        browser.goTo("http://localhost:3333/kamanuv6");
+        assertThat(browser.pageSource()).contains("The most exciting thing in paddling since the T-Top.");
+
+        browser.goTo("http://localhost:3333/about");
+        assertThat(browser.pageSource()).contains("Become the most amazing company in the entire world");
       }
     });
   }

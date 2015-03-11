@@ -47,6 +47,30 @@ body {
   height: 385px;
 }
 
+.page-content-aukahi {
+  background-image: url('../images/cover-aukahi.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  height: 385px;
+}
+
+.page-content-kamanuv6 {
+  background-image: url('../images/cover-v6-page.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  height: 385px;
+}
+
+.page-content-about {
+  background-image: url('../images/cover-about-eono.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  height: 385px;
+}
+
 .content {
   font-family: Georgia, 'Times New Roman', Times;
   font-size: 3em;

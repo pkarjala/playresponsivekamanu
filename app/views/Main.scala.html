@@ -33,10 +33,10 @@
           <ul class="nav navbar-nav">
             <li class="@("active".when(page == "Home"))"><a href="@routes.Application.index()">Store</a></li>
             <li class="@("active".when(page == "Pueo"))"><a href="@routes.Application.pueo()">Pueo</a></li>
-            <li><a href="#">Aukahi</a></li>
-            <li><a href="#">Kamanu V6</a></li>
+            <li class="@("active".when(page == "Aukahi"))"><a href="@routes.Application.aukahi()">Aukahi</a></li>
+            <li class="@("active".when(page == "KamanuV6"))"><a href="@routes.Application.kamanuv6()">Kamanu V6</a></li>
             <li><a href="#">Iho</a></li>
-            <li><a href="#">About</a></li>
+            <li class="@("active".when(page == "About"))"><a href="@routes.Application.about()">About</a></li>
           </ul>
         </div>
       </div>
